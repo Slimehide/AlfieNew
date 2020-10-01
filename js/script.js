@@ -1,4 +1,23 @@
 $(document).ready(function(){
+
+	$(".scrollable__button").on("click" , function(e){
+		e.preventDefault();
+	});
+
+	$(".after__info>a").on("click" , function(e){
+		e.preventDefault();
+		$('.popup__modal').fadeIn(400);
+	});
+
+	$(".package__button>a").on("click" , function(e){
+		e.preventDefault();
+		$('.popup__modal').fadeIn(400);
+	});
+	$('.inner__popup>a').on("click" , function(e){
+		e.preventDefault();
+		$('.popup__modal').fadeOut(400);
+	});
+
 	if ($(".services__slider").length) {
 		$(".services__slider").slick({
 			slidesToShow:2,
