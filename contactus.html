@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tavistock Stirling | Home - A full service digital agency</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="img/fav.png"/>
+	<meta name="description" content="Tavistock Stirling is a core listing agent for ILOCX, offering web, design, branding and marketing all under one roof.">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD5Fz8Dlaajl_EuArOMqi0l7ivVcnHC7J4&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div class="outer__header">
+				<div class="left__header">
+					<a href="#">
+						<img src="img/logo.png" alt="logo">
+					</a>
+				</div>
+				<div class="right__header">
+					<div class="header__list">
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">about</a></li>
+							<li><a href="#">services</a></li>
+							<li><a href="#">pricing</a></li>
+						</ul>
+					</div>
+					<div class="contact__header">
+						<a href="#">contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="head__block">
+		<div class="container">
+			<div class="outer__head">
+				<div class="head__txt">
+					<p>WHAT WE OFFER</p>
+				</div>
+				<h2>Contact Us</h2>
+			</div>
+		</div>
+	</div>
+	<div class="questions__block">
+		<div class="container">
+			<div class="outer__questions">
+				<div class="left__questions">
+					<div class="head__txt">
+						<p>CONTACT US</p>
+					</div>
+					<h2>Have any questions?</h2>
+					<p>Use this form to leave us a message. <br> We’ll get back to you as soon as possible.</p>
+				</div>
+				<div class="right__questions">
+					<form action="">
+						<div class="group__questions">
+							<input type="text" placeholder="Full Name*">
+						</div>
+						<div class="group__questions">
+							<input type="text" placeholder="Email Address*">
+						</div>
+						<div class="group__questions">
+							<input type="text" placeholder="Subject*">
+						</div>
+						<div class="group__questions">
+							<textarea name="" id="" cols="30" rows="10" placeholder="Start typing here..."></textarea>
+						</div>
+						<div class="questions__submit">
+							<input type="submit" value="Send Message">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="contact__block" style="display:none;">
+		<div class="container">
+			<div class="outer__contact">
+				<div class="left__contact">
+					<div class="head__txt">
+						<p>Don’t be a stranger</p>
+					</div>
+					<h2>Contact Us</h2>
+					<div class="contact__inner">
+						<div class="elem__contact">
+							<span><img src="img/contact1.svg" alt="contact1"></span>
+							<p>Phone - +44 (0) 20 3290 4001</p>
+						</div>
+						<div class="elem__contact">
+							<span><img src="img/contact2.svg" alt="contact1"></span>
+                            <a href="mailto:info@tavistockstirling.com">info@tavistockstirling.com</a>
+						</div>
+						<div class="elem__contact">
+							<span><img src="img/contact3.svg" alt="contact1"></span>
+							<p>7 Bell Yard <br> London, WC2A 2JR <br> United Kingdom</p>
+						</div>
+					</div>
+				</div>
+				<div class="right__contact">
+					<div id="map"></div>
+					<script>
+				      "use strict";
+
+				      let map;
+
+				      function initMap() {
+				        map = new google.maps.Map(document.getElementById("map"), {
+				          center: {
+				            lat: -34.397,
+				            lng: 150.644,
+				          },
+				          zoom: 8,
+				          styles:[
+  {
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.icon",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#616161"
+      }
+    ]
+  },
+  {
+    "elementType": "labels.text.stroke",
+    "stylers": [
+      {
+        "color": "#f5f5f5"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#bdbdbd"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#eeeeee"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#e5e5e5"
+      }
+    ]
+  },
+  {
+    "featureType": "poi.park",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#9e9e9e"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "road.arterial",
+    "elementType": "labels.text.fill",
+    "stylers": [
+      {
+        "color": "#757575"
+      }
+    ]
+  },
+  {
+    "featureType": "road.highway",
+    "elementType": "geometry",
+    "stylers": [
+      {
+        "color": "#dadada"
+      }
+    ]
+  },
+  ]
+  
+				        });
+				      }
+				    </script>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="outer__footer">
+				<div class="top__footer">
+					<div class="elem__foot">
+						<a href="#">
+							<img src="img/logo.png" alt="logo">
+						</a>
+						<p>TAVISTOCK STIRLING LTD <br> 12831842 <br>7 BELL YARD <br> LONDON, WC2A 2JR</p>
+					</div>
+					<div class="elem__foot">
+						<ul>
+							<li><a href="#">home</a></li>
+							<li><a href="#">website design</a></li>
+							<li><a href="#">contact</a></li>
+							<li><a href="#">about</a></li>
+							<li><a href="#">marketing</a></li>
+							<li><a href="#">pricing</a></li>
+							<li><a href="#">development</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bottom__footer">
+					<p>COPYRIGHT © 2020 TAVISTOCK STIRLING LTD.</p>
+					<ul>
+						<li><a href="privacy.html">Privacy Policy</a></li>
+						<li><a href="cookie.html">Cookie Policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="top__button">
+			<img src="img/footerarrow.svg" alt="footerarrow">
+		</a>
+	</footer>
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  	<script src="js/slick.js"></script>
+  	<script src="js/script.js"></script>
+</body>
+</html>
